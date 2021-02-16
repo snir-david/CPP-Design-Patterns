@@ -16,10 +16,10 @@ struct sum {
     }
 };
 
-int main(){
-    std::vector<int> vector = {1, 2, 3, 4, 5};
-    for_each(vector.begin(), vector.end(),[](int x){ std::cout << x << std::endl;});
-    for_each(vector.begin(), vector.end(),sum());
-
-    return 0;
-}
+//int main(){
+//    std::vector<int> vector = {1, 2, 3, 4, 5};
+//    for_each(vector.begin(), vector.end(),[](int x){ std::cout << x << std::endl;});
+//    for_each(vector.begin(), vector.end(),sum());
+//
+//    return 0;
+//}
