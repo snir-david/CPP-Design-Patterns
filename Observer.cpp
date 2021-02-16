@@ -63,16 +63,16 @@ public:
     }
 };
 
-int main() {
-    Subject* c1 = new ConcSubject("First Subject");
-    Subject* c2 = new ConcSubject("Second Subject");
-    Observer* ob1 = new ConcObserver();
-    Observer* ob2 = new ConcObserver();
-    c1->Attach(ob1);
-    c2->Attach(ob2);
-    c1->Notify();
-    c2->Notify();
-    c1->Detach(ob1);
-    c2->Detach(ob2);
-    return 0;
-}
+//int main() {
+//    Subject* c1 = new ConcSubject("First Subject");
+//    Subject* c2 = new ConcSubject("Second Subject");
+//    Observer* ob1 = new ConcObserver();
+//    Observer* ob2 = new ConcObserver();
+//    c1->Attach(ob1);
+//    c2->Attach(ob2);
+//    c1->Notify();
+//    c2->Notify();
+//    c1->Detach(ob1);
+//    c2->Detach(ob2);
+//    return 0;
+//}
