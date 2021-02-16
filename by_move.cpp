@@ -53,9 +53,9 @@ public:
 
 };
 
-int main() {
-    Employee e("Yossi", 5000);
-    Employee e1("Dana", 4500);
-    e = (Employee&&) e1;
-    return 0;
-}
+//int main() {
+//    Employee e("Yossi", 5000);
+//    Employee e1("Dana", 4500);
+//    e = (Employee&&) e1;
+//    return 0;
+//}
